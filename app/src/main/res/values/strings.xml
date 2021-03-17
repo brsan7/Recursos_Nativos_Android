@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Recursos Nativos Android</string>
+    <string name="boasVindas">"Aplicativo Desenvolvido\n"
+                                "Para Exemplificar\n"
+                                "O Uso Dos\n"
+                                "Recursos Nativos Android\n\n"
+                                "Cada Item do Menu\n"
+                                "Acessa um Exemplo de\n"
+                                "Uso de Recurso Nativo"
+    </string>
+    <string name="toolBarTitleAgenda">Agenda</string>
+    <string name="toolBarTitleContatos">Contatos</string>
+    <string name="origemRecyclerViewContatos">"Dados Obtidos através do Provedor de\nContatos Nativo Android"</string>
+</resources>

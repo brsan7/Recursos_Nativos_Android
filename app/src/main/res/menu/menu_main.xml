@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuAgenda"
+        android:title="Agenda"/>
+    <item android:id="@+id/menuContatos"
+        android:title="Contatos"/>
+    <item android:id="@+id/menuFotos"
+        android:title="Fotos"/>
+</menu>
