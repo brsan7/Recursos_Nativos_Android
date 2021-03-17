@@ -11,4 +11,7 @@
     <string name="toolBarTitleAgenda">Agenda</string>
     <string name="toolBarTitleContatos">Contatos</string>
     <string name="origemRecyclerViewContatos">"Dados Obtidos através do Provedor de\nContatos Nativo Android"</string>
+    <string name="ivDescricao">Imagem a ser selecionada pelo usuário</string>
+    <string name="btnTXT">Selecione uma Imagem</string>
+    <string name="ivDescricaoFoto">Foto</string>
 </resources>

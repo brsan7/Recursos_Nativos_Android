@@ -1,12 +1,10 @@
 package com.brsan7.recursosnativos.contatos
 
 import android.Manifest
-import android.content.ContentResolver
 import android.content.pm.PackageManager
 import android.database.Cursor
 import android.os.Bundle
 import android.provider.ContactsContract
-import androidx.core.app.ActivityCompat
 import androidx.core.app.ActivityCompat.*
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.brsan7.recursosnativos.R
@@ -27,9 +25,9 @@ class ContatosActivity : ToolBarActivitys() {
         setContentView(R.layout.activity_contatos)
         setupToolBar(toolBar, getString(R.string.toolBarTitleContatos), true)
 
-        if(ActivityCompat.checkSelfPermission(this,Manifest.permission.READ_CONTACTS)
+        if(checkSelfPermission(this,Manifest.permission.READ_CONTACTS)
         != PackageManager.PERMISSION_GRANTED){
-            ActivityCompat.requestPermissions(this,
+            requestPermissions(this,
             arrayOf(Manifest.permission.READ_CONTACTS),
             REQUEST_CONTACT)
         }

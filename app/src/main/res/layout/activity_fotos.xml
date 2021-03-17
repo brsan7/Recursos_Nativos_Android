@@ -16,4 +16,23 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"/>
 
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_baseline_image_24"
+        android:contentDescription="@string/ivDescricao"
+        app:layout_constraintTop_toBottomOf="@id/toolBar"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSelectImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textAllCaps="false"
+        android:text="@string/btnTXT"
+        app:layout_constraintTop_toBottomOf="@id/ivImage"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

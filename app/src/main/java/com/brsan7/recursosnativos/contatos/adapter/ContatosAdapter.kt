@@ -19,6 +19,8 @@ class ContatosAdapter(private val mCursor: Cursor): RecyclerView.Adapter<Cliente
         with(holder.itemView) {
             tvNome.text = mCursor.getString(mCursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME))
             tvTelefone.text = mCursor.getString(mCursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER))
+            //ivContatoImage.setImageURI(
+            //        mCursor.getString(mCursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.PHOTO_URI)).toUri())
         }
     }
 
