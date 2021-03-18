@@ -10,8 +10,12 @@
     </string>
     <string name="toolBarTitleAgenda">Agenda</string>
     <string name="toolBarTitleContatos">Contatos</string>
+    <string name="toolBarTitleFotos">Fotos</string>
+    <string name="toolBarTitleLocalizacao">Localização</string>
     <string name="origemRecyclerViewContatos">"Dados Obtidos através do Provedor de\nContatos Nativo Android"</string>
     <string name="ivDescricao">Imagem a ser selecionada pelo usuário</string>
-    <string name="btnTXT">Selecione uma Imagem</string>
+    <string name="btnSelectImageTXT">Selecione uma Imagem</string>
     <string name="ivDescricaoFoto">Foto</string>
+    <string name="btnTakePictureTXT">Tirar uma Foto</string>
+    <string name="title_activity_maps_location">Map</string>
 </resources>

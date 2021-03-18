@@ -8,6 +8,7 @@ import android.view.MenuItem
 import com.brsan7.recursosnativos.agenda.AgendaActivity
 import com.brsan7.recursosnativos.contatos.ContatosActivity
 import com.brsan7.recursosnativos.fotos.FotosActivity
+import com.brsan7.recursosnativos.localizacao.MapsLocationActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : ToolBarActivitys() {
@@ -37,6 +38,11 @@ class MainActivity : ToolBarActivitys() {
             }
             R.id.menuFotos ->{
                 val intent = Intent(this, FotosActivity::class.java)
+                startActivity(intent)
+                true
+            }
+            R.id.menuLocalizacao ->{
+                val intent = Intent(this, MapsLocationActivity::class.java)
                 startActivity(intent)
                 true
             }

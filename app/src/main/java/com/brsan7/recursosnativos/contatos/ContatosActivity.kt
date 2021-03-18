@@ -56,7 +56,6 @@ class ContatosActivity : ToolBarActivitys() {
                 layoutManager = LinearLayoutManager(this@ContatosActivity)
                 adapter = ContatosAdapter(cursor as Cursor)
             }
-            //cursor?.close()
         }
         catch (ex: Exception){
             ex.printStackTrace()

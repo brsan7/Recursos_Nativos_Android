@@ -6,4 +6,6 @@
         android:title="Contatos"/>
     <item android:id="@+id/menuFotos"
         android:title="Fotos"/>
+    <item android:id="@+id/menuLocalizacao"
+        android:title="Localização"/>
 </menu>
